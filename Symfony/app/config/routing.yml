@@ -1,0 +1,8 @@
+vip_credit_admin:
+    resource: "@VipCreditAdminBundle/Resources/config/routing.php"
+    prefix:   /
+
+vip_credit_order:
+    resource: "@VipCreditOrderBundle/Resources/config/routing.php"
+    prefix:   /
+

@@ -19,6 +19,8 @@ class AppKernel extends Kernel
             new JMS\AopBundle\JMSAopBundle(),
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
+            new VipCredit\OrderBundle\VipCreditOrderBundle(),
+            new VipCredit\AdminBundle\VipCreditAdminBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
