@@ -26,6 +26,19 @@ security:
             pattern:  ^/demo/secured/login$
             security: false
 
+        admin_login:
+            pattern:  ^/admin/login$
+            security: false
+
+        admin_area:
+            pattern:  ^/admin/
+            form_login:
+                check_path: vip_credit_admin_login_check
+                login_path: vip_credit_admin_login
+            logout:
+                path: vip_credit_admin_logout
+                target: vip_credit_admin_homepage
+
         secured_area:
             pattern:    ^/demo/secured/
             form_login:
@@ -38,5 +51,7 @@ security:
             #http_basic:
             #    realm: "Secured Demo Area"
 
-    access_control:
+    #access_control:
         #- { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
+        #- { path: ^/admin/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        #- { path: ^/admin, roles: ROLE_ADMIN }

@@ -1,8 +1,8 @@
 vip_credit_admin:
     resource: "@VipCreditAdminBundle/Resources/config/routing.php"
-    prefix:   /
+    prefix:   /admin
 
 vip_credit_order:
     resource: "@VipCreditOrderBundle/Resources/config/routing.php"
-    prefix:   /
+    prefix:   /order
 
