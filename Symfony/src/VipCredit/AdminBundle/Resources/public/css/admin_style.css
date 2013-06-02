@@ -294,7 +294,7 @@ input::-moz-focus-inner {
 }
 .btn {
 	color: #333;
-	background:#e6e6e6 url(../images/admin/content/btn.png);
+	background:#e6e6e6 url(../images/content/btn.png);
 	border: 1px solid #c4c4c4;
 	border-radius: 2px;
 	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
@@ -330,7 +330,7 @@ button.btn{
 .btn .add{
 	width:9px;
 	height:9px;
-	background:url(../images/admin/content/btn_add.png) center center no-repeat;
+	background:url(../images/content/btn_add.png) center center no-repeat;
 	display:inline-block;
 	vertical-align:middle;
 	margin:-3px 5px 0 -3px;
@@ -449,7 +449,7 @@ select {
 	background-color:#fffbde;
 }
 .input_hd,.textarea_hd{
-	background:#fff url(../images/admin/content/input_hd.png) 0 bottom repeat-x;
+	background:#fff url(../images/content/input_hd.png) 0 bottom repeat-x;
 }
 .input{
 	height:18px;
@@ -598,7 +598,7 @@ select[size]{
 */
 .loading{
 	border:1px solid #e4e4e4;
-	background:#fffde3 url(../images/admin/content/loading.gif) 10px center no-repeat;
+	background:#fffde3 url(../images/content/loading.gif) 10px center no-repeat;
 	line-height:27px;
 	padding:0 15px 0 30px;
 	border-radius: 2px;
@@ -634,12 +634,12 @@ select[size]{
 .tips_loading{
 	color:#cc3333;
 	padding-left:18px;
-	background:url(../images/admin/tips/tips_follow.png) -20px 2px no-repeat;
+	background:url(../images/tips/tips_follow.png) -20px 2px no-repeat;
 	display:inline-block;
 	line-height:18px;
 }
 .tips_loading{
-	background:url(../images/admin/content/loading.gif) 0 center no-repeat;
+	background:url(../images/content/loading.gif) 0 center no-repeat;
 	color:#333333;
 }
 .tips_success{
@@ -664,7 +664,7 @@ select[size]{
 	padding:5px 10px 5px 28px;
 	line-height:25px;
 	border:1px solid #f4d5ba;
-	background:#ffffe9 url(../images/admin/tips/light_mini.png) 8px 10px no-repeat;
+	background:#ffffe9 url(../images/tips/light_mini.png) 8px 10px no-repeat;
 	margin-bottom:10px;
 }
 /*气泡弹出提示*/
@@ -848,7 +848,7 @@ select[size]{
 	height:8px;
 	overflow:hidden;
 	text-indent:-2000em;
-	background:url(../images/admin/content/close.png) no-repeat;
+	background:url(../images/content/close.png) no-repeat;
 	-webkit-transition: all 0.2s ease-out;
 	margin-left:10px;
 }
@@ -857,7 +857,7 @@ select[size]{
 }
 /*读取中*/
 .pop_loading{
-	background:url(../images/admin/content/loading.gif) center center no-repeat;
+	background:url(../images/content/loading.gif) center center no-repeat;
 	height:80px;
 	width:80px;
 	margin:auto;
@@ -936,7 +936,7 @@ a:hover{
 	color:#266aae;
 }
 .nav .return a{
-	background:url(../images/admin/content/return.png) 2px center no-repeat;
+	background:url(../images/content/return.png) 2px center no-repeat;
 	color:#990000;
 	padding:0 20px;
 }
@@ -1075,7 +1075,7 @@ tr.h_a td
 .pop_design_tablelist th,
 .table_full tr.tr_checkbox td,
 .search_list dl{
-	background:url(../images/admin/content/hr.png) 0 bottom repeat-x;
+	background:url(../images/content/hr.png) 0 bottom repeat-x;
 }
 .table_full th{
 	padding:7px 10px 9px;
@@ -1155,7 +1155,7 @@ TODO:
 tr.high_light td,tr.high_light th{
 	border-bottom:1px solid #ebdf99 !important;
 	background-color:#fff8cf !important;
-	background-image:url(../images/admin/content/high_light.png) !important;
+	background-image:url(../images/content/high_light.png) !important;
 	background-repeat:repeat-x !important;
 }
 /*
@@ -1438,7 +1438,7 @@ input:radio+span{
 .zero_icon,
 .plus_icon,
 .plus_end_icon{
-	background:url(../images/admin/content/icon_list.png) no-repeat;
+	background:url(../images/content/icon_list.png) no-repeat;
 	display:inline-block;
 	vertical-align:middle;
 }
@@ -1495,7 +1495,7 @@ input:radio+span{
 }
 .btn_wrap .btn_wrap_pd{
 	padding:10px 20px 10px;
-	background:#eaeaea url(../images/admin/content/btn_wrap.png) repeat-x;
+	background:#eaeaea url(../images/content/btn_wrap.png) repeat-x;
 	border-top:1px solid #d8d8d8;
 }
 .btn_wrap_pd .btn{
@@ -1558,10 +1558,10 @@ input:radio+span{
 }
 .shift .select_div dl dt{
 	font-weight:700;
-	background:#e9e9e9 url(../images/admin/content/down.png) 115px center no-repeat;
+	background:#e9e9e9 url(../images/content/down.png) 115px center no-repeat;
 }
 .shift .select_div dl.current dt{
-	background:#e9e9e9 url(../images/admin/content/up.png) 115px center no-repeat;
+	background:#e9e9e9 url(../images/content/up.png) 115px center no-repeat;
 }
 .shift .select_div a{
 	display:block;
@@ -1620,7 +1620,7 @@ input:radio+span{
 }
 .error_cont{
 	padding:20px 20px 30px 80px;
-	background:url(../images/admin/tips/light.png) 20px 20px no-repeat;
+	background:url(../images/tips/light.png) 20px 20px no-repeat;
 	line-height:1.8;
 }
 .error_return{
@@ -1681,7 +1681,7 @@ input:radio+span{
 ===================
 */
 .link_add{
-	background:url(../images/admin/content/link_add.png) 3px 3px no-repeat;
+	background:url(../images/content/link_add.png) 3px 3px no-repeat;
 	display:inline-block;
 	padding-left:20px;
 	color:#ff5500;
@@ -1778,7 +1778,7 @@ input:radio+span{
 }
 .yarnball ul li a,
 .yarnball ul li em{
-	background:url(../images/admin/content/yarnball.png) 0 0 no-repeat;
+	background:url(../images/content/yarnball.png) 0 0 no-repeat;
 }
 .yarnball ul li a{
 	color: #666;
@@ -1847,7 +1847,7 @@ input:radio+span{
 .cate_link_down{
 	margin-top:3px;
 	cursor:pointer;
-	background:url(../images/admin/content/select_down.png) 0 0 no-repeat;
+	background:url(../images/content/select_down.png) 0 0 no-repeat;
 	width:15px;
 	height:15px;
 	float:left;
@@ -1982,7 +1982,7 @@ input:radio+span{
 	display:block;
 	line-height:20px;
 	text-indent:25px;
-	background:url(../images/admin/content/file_up.png) no-repeat;
+	background:url(../images/content/file_up.png) no-repeat;
 	filter:alpha(opacity=80);
 	-moz-opacity:0.8;
 	opacity:0.8;
@@ -2043,7 +2043,7 @@ input:radio+span{
 .color_pick{
 	border:1px solid #ccc;
 	padding:2px 13px 2px 3px;
-	background:#fff url(../images/admin/content/down.png) 40px center no-repeat;
+	background:#fff url(../images/content/down.png) 40px center no-repeat;
 	display:inline-block;
 	cursor:pointer;
 	height:20px;
@@ -2063,7 +2063,7 @@ input:radio+span{
 	height:20px;
 	width:34px;
 	display:inline-block;
-	background:url(../images/admin/content/transparent.png);
+	background:url(../images/content/transparent.png);
 }
 .color_pick.color_big{
 	background-image:none;
@@ -2203,7 +2203,7 @@ seo弹窗
 	height:8px;
 	overflow:hidden;
 	text-indent:-2000em;
-	background:url(../images/admin/content/close.png) no-repeat;
+	background:url(../images/content/close.png) no-repeat;
 	-webkit-transition: all 0.2s ease-out;
 	margin:3px 3px 0 10px;
 }
@@ -2270,7 +2270,7 @@ seo弹窗
 .sort_down_old,
 .sort_up,
 .sort_up_old{
-	background:url(../images/admin/appcenter/arrow.png) right -37px no-repeat;
+	background:url(../images/appcenter/arrow.png) right -37px no-repeat;
 	display:inline-block;
 	padding-right:24px;
 	cursor:pointer;
@@ -2464,7 +2464,7 @@ seo弹窗
 }
 .widget_history_file dd.name a{
 	padding-left:20px;
-	background:url(../images/admin/content/zip.png) 0 center no-repeat;
+	background:url(../images/content/zip.png) 0 center no-repeat;
 	display:inline-block;
 }
 
@@ -2739,7 +2739,7 @@ seo弹窗
 }
 .pop_showmsg_wrap,
 .pop_showmsg{
-	background:#f6fbfe url(../images/admin/tips/pop_showmsg.png) no-repeat;
+	background:#f6fbfe url(../images/tips/pop_showmsg.png) no-repeat;
 }
 .pop_showmsg_wrap{
 	position:fixed;
@@ -2768,10 +2768,10 @@ seo弹窗
 	color:#333;
 }
 .pop_showmsg span.success{
-	background:url(../images/admin/tips/success.gif) 20px center no-repeat;
+	background:url(../images/tips/success.gif) 20px center no-repeat;
 }
 .pop_showmsg span.warning{
-	background:url(../images/admin/tips/warning.gif) 20px center no-repeat;
+	background:url(../images/tips/warning.gif) 20px center no-repeat;
 }
 
 
@@ -2910,7 +2910,7 @@ seo弹窗
 .install_schedule_bg,
 .install_schedule,
 .install_schedule span{
-	background:url(../images/admin/content/install_schedule.png) no-repeat;
+	background:url(../images/content/install_schedule.png) no-repeat;
 }
 .install_schedule_bg{
 	height:15px;
@@ -3042,7 +3042,7 @@ seo弹窗
 	top:0;
 	width:80px;
 	height:80px;
-	background:url(../images/admin/content/app_bg.png) no-repeat;
+	background:url(../images/content/app_bg.png) no-repeat;
 	_background:none;
 }
 
@@ -3074,7 +3074,7 @@ seo弹窗
 	display:inline-block;
 	vertical-align:middle;
 	margin-right:10px;
-	background:url(../images/admin/content/small.png) 0 -60px no-repeat;
+	background:url(../images/content/small.png) 0 -60px no-repeat;
 }
 .not_content_mini i.success{
 	background-position:-40px -20px;

@@ -51,10 +51,10 @@ img {border: 0;}
 .refresh,
 .full_screen,
 .options{
-	background: url(../images/admin/layout/bg.png);
+	background: url(../images/layout/bg.png);
 }
 .logo{
-	background: url(../images/admin/layout/logo.png) center center no-repeat;
+	background: url(../images/layout/logo.png) center center no-repeat;
 }
 /*
 ===================
@@ -95,7 +95,7 @@ a {
 */
 .head {
 	height: 46px;
-	background:#235179 url(../images/admin/layout/bg.jpg);
+	background:#235179 url(../images/layout/bg.jpg);
 }
 .head th {
 	width: 140px;
@@ -128,7 +128,7 @@ a {
 	text-align: center;
 }
 .nav li.current a{
-	background:url(../images/admin/layout/nav_cur.png) center 0 no-repeat;
+	background:url(../images/layout/nav_cur.png) center 0 no-repeat;
 	font-weight: 700;
 	color:#fff;
 }

@@ -1,0 +1,22 @@
+<div class="pages">
+{% if currentPage > pageMin %}
+	<a href="{{ path(url, currentFilter|merge({'page': currentPage - 1})) }}" class="pages_pre J_pages_pre">&laquo;&nbsp;上一页</a>
+    {% if pageMin > 1 %}
+	<a href="{{ path(url, currentFilter|merge({'page': 1})) }}">1...</a>
+    {% endif %}
+    {% for i in range(pageMin, currentPage-1) %}
+	<a href="{{ path(url, currentFilter|merge({'page': i})) }}">{{ i }}</a>
+    {% endfor %}
+{% endif %}
+	<strong>{{ currentPage }}</strong>
+{% if currentPage < pageMax %}
+    {% for i in range(currentPage + 1, pageMax) %}
+	<a href="{{ path(url, currentFilter|merge({'page': i})) }}">{{ i }}</a>
+    {% endfor %}
+    {% if pageMax < total %}
+	<a href="{{ path(url, currentFilter|merge({'page': total})) }}">...{{ total }}</a>
+    {% else %}
+    {% endif %}
+	<a href="{{ path(url, currentFilter|merge({'page': currentPage + 1})) }}" class="pages_next J_pages_next">下一页&nbsp;&raquo;</a>
+{% endif %}
+</div>

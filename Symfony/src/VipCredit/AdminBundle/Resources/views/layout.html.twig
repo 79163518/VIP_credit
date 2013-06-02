@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>{% block title %}REDO积分商城后台{% endblock %}</title>
+{% stylesheets 'bundles/vipcreditadmin/css/admin_style.css' filter='cssrewrite' %}
+<link rel="stylesheet" href="{{ asset_url }}" />
+{% endstylesheets %}
+<script>
+var GV = {
+     JS_ROOT : "http://www.phpwind.test/res/js/dev/",
+     JS_VERSION :"20130227",
+     TOKEN : 'd1e742679dd27694', //token ajax全局
+};
+</script>
+{% javascripts '@VipCreditAdminBundle/Resources/public/js/wind.js' %}
+<script type="text/javascript" src="{{ asset_url }}"></script>
+{% endjavascripts %}
+{% javascripts '@VipCreditAdminBundle/Resources/public/js/jquery.js' %}
+<script type="text/javascript" src="{{ asset_url }}"></script>
+{% endjavascripts %}
+</head>
+<body>
+{% block body %}{% endblock %}
+{% javascripts '@VipCreditAdminBundle/Resources/public/js/pages/admin/common/common.js' %}
+<script type="text/javascript" src="{{ asset_url }}"></script>
+{% endjavascripts %}
+</body>
+</html>
+

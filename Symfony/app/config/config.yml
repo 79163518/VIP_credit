@@ -41,17 +41,16 @@ assetic:
 # Doctrine Configuration
 doctrine:
     dbal:
-        driver:   %database_driver%
-        host:     %database_host%
-        port:     %database_port%
-        dbname:   %database_name%
-        user:     %database_user%
-        password: %database_password%
-        charset:  UTF8
-        # if using pdo_sqlite as your database driver, add the path in parameters.yml
-        # e.g. database_path: %kernel.root_dir%/data/data.db3
-        # path:     %database_path%
-
+        default_connection: vipcredit
+        connections:
+            vipcredit:
+                driver:   %database_driver%
+                host:     %database_host%
+                port:     %database_port%
+                dbname:   %database_name%
+                user:     %database_user%
+                password: %database_password%
+                charset:  UTF8
     orm:
         auto_generate_proxy_classes: %kernel.debug%
         auto_mapping: true
@@ -63,3 +62,48 @@ swiftmailer:
     username:  %mailer_user%
     password:  %mailer_password%
     spool:     { type: memory }
+
+vip_credit_admin:
+    admin_submenu:
+        custom:
+            id: custom
+            name: 常用
+            icon: NULL
+            tip: NULL
+            parent: root
+            top: ''
+            items:
+                custom_set:
+                    id: custom_set
+                    name: 常用菜单
+                    icon: NULL
+                    tip: NULL
+                    parent: custom
+                    top: NULL
+                    url: vip_credit_admin_custom
+        article:
+            id: article
+            name: 图文编辑
+            icon: NULL
+            tip: NULL
+            parent: root
+            top: ''
+            items:
+                article_category:
+                    id: article_category
+                    name: 图文类别
+                    icon: NULL
+                    tip: NULL
+                    parent: article
+                    top: NULL
+                    url: vip_credit_admin_article_category
+                article_list:
+                    id: article_list
+                    name: 文章列表
+                    icon: NULL
+                    tip: NULL
+                    parent: article
+                    top: NULL
+                    url: vip_credit_admin_article_list
+
+
